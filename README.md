@@ -240,12 +240,6 @@ The combination of Somnia's reactivity primitives + smart contract enforcement c
 
 ---
 
-##  License
-
-This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
-
----
-
 <div align="center">
   <strong>Built with ❤️ for the Hackathon using Somnia Reactivity SDK</strong><br/>
   <sub>ReactiveShield — Protecting wallets before the scam happens.</sub><br/><br/>
