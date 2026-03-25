@@ -142,8 +142,6 @@ The live demo dashboard lets you:
 5. The risk score climbs to HIGH (87/100) and the transaction is blocked instantly
 6. The event log records every blocked event with hash and timestamp
 
-**Live Site:** [ReactiveShield on Replit](https://reactiveshield.repl.co)
-
 ---
 
 ##  Getting Started
