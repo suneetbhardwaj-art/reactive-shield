@@ -1,4 +1,4 @@
-# 🏆 ReactiveShield — Hackathon Submission
+#  ReactiveShield — Hackathon Submission
 
 **Hackathon:** Somnia Reactivity SDK Hackathon  
 **Project:** ReactiveShield — Smart Scam Protection Wallet  
@@ -7,7 +7,7 @@
 
 ---
 
-## 🎯 What We Built
+##  What We Built
 
 ReactiveShield is a **real-time wallet protection system** that uses the **Somnia Reactivity SDK** to monitor blockchain events and instantly protect users from crypto scams — **before transactions execute**.
 
@@ -15,7 +15,7 @@ Unlike existing solutions that analyze transactions after the fact, ReactiveShie
 
 ---
 
-## 🔑 How We Use Somnia Reactivity SDK
+##  How We Use Somnia Reactivity SDK
 
 The Somnia Reactivity SDK is the **core technical innovation** in this project:
 
@@ -51,7 +51,7 @@ function evaluateTransaction(address to, uint256 value) external returns (uint25
 
 ---
 
-## 🏗️ Technical Architecture
+##  Technical Architecture
 
 ```
 User Wallet (wagmi + viem)
@@ -76,7 +76,7 @@ React Dashboard UI
 
 ---
 
-## 🧩 Smart Contract Events
+##  Smart Contract Events
 
 | Event | Trigger | SDK Consumer |
 |---|---|---|
@@ -88,7 +88,7 @@ React Dashboard UI
 
 ---
 
-## 🎬 Demo Flow (for judges)
+##  Demo Flow (for judges)
 
 1. Open the live demo at the deployed URL
 2. Scroll to the **"Real-Time Security Dashboard"** section
@@ -100,7 +100,7 @@ React Dashboard UI
 
 ---
 
-## 📦 Repository Structure
+##  Repository Structure
 
 ```
 reactive-shield/
@@ -136,7 +136,7 @@ reactive-shield/
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ### 1. Clone & Install
 ```bash
@@ -166,14 +166,14 @@ cd .. && npm run dev
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
 **Deployed Site:** [reactiveshield.repl.co](https://reactiveshield.repl.co)  
 **Somnia Testnet Explorer:** [explorer.somnia.network](https://explorer.somnia.network)
 
 ---
 
-## 💡 Why ReactiveShield Wins
+##  Why ReactiveShield Wins
 
 | Criterion | ReactiveShield |
 |---|---|
