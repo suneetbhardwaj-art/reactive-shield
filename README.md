@@ -5,25 +5,6 @@
 
 ---
 
-##  Table of Contents
-
-- [Problem Statement](#-problem-statement)
-- [Solution](#-solution)
-- [Key Features](#-key-features)
-- [Tech Stack](#-tech-stack)
-- [Architecture](#-architecture)
-- [How Somnia Reactivity Works](#-how-somnia-reactivity-works)
-- [Somnia Testnet Deployment](#-somnia-testnet-deployment)
-- [Demo](#-demo)
-- [Getting Started](#-getting-started)
-- [Project Structure](#-project-structure)
-- [Product Potential](#-product-potential)
-- [Contributing](#-contributing)
-- [Team](#-team)
-- [License](#-license)
-
----
-
 ##  Problem Statement
 
 Crypto users lose **billions of dollars every year** to phishing attacks, scam addresses, and malicious smart contracts. Existing solutions fail because:
@@ -246,20 +227,6 @@ ReactiveShield is more than a hackathon demo — it's a blueprint for real Web3 
 - **On-Chain Insurance** — Partner with DeFi insurance protocols to reward protected wallets with lower premiums
 
 The combination of Somnia's reactivity primitives + smart contract enforcement creates a unique moat: protection that happens at the protocol level, not in a browser extension.
-
----
-
-##  Contributing
-
-Contributions are welcome! Here's how to get involved:
-
-1. **Fork** the repository
-2. **Create** your feature branch: `git checkout -b feature/your-feature`
-3. **Commit** your changes: `git commit -m 'Add your feature'`
-4. **Push** to the branch: `git push origin feature/your-feature`
-5. **Open** a Pull Request
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for full guidelines.
 
 ---
 
