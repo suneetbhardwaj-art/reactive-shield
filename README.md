@@ -1,18 +1,11 @@
-# ⚡ ReactiveShield – Smart Scam Protection Wallet
+#  ReactiveShield – Smart Scam Protection Wallet
 
 > **Stop Crypto Scams Before They Happen.**  
 > ReactiveShield is a real-time wallet protection system built on **Somnia Testnet** using the **Somnia Reactivity SDK**. It monitors blockchain events in real time and automatically alerts users — and blocks transactions — when suspicious activity is detected.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](./LICENSE)
-[![Built With](https://img.shields.io/badge/Built%20With-Somnia%20Reactivity%20SDK-purple)](https://somnia.network/)
-[![Network](https://img.shields.io/badge/Network-Somnia%20Testnet-blue)](https://somnia.network/)
-[![Hackathon](https://img.shields.io/badge/Hackathon-Submission-green)](https://github.com/suneetbhardwaj-art)
-[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)](https://www.typescriptlang.org/)
-
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 
 - [Problem Statement](#-problem-statement)
 - [Solution](#-solution)
@@ -31,18 +24,18 @@
 
 ---
 
-## ❗ Problem Statement
+##  Problem Statement
 
 Crypto users lose **billions of dollars every year** to phishing attacks, scam addresses, and malicious smart contracts. Existing solutions fail because:
 
-- ❌ Manual address verification is error-prone and tedious
-- ❌ Browser extensions can be bypassed or spoofed
-- ❌ Current tools perform post-mortem analysis — after funds are already gone
-- ❌ No on-chain enforcement mechanism exists to stop scam transactions before execution
+-  Manual address verification is error-prone and tedious
+-  Browser extensions can be bypassed or spoofed
+-  Current tools perform post-mortem analysis — after funds are already gone
+-  No on-chain enforcement mechanism exists to stop scam transactions before execution
 
 ---
 
-## ✅ Solution
+##  Solution
 
 **ReactiveShield** uses the **Somnia Reactivity SDK** to subscribe to live blockchain events and instantly react when suspicious activity is detected. A Reactive Smart Contract deployed on **Somnia Testnet** intercepts and evaluates wallet transactions in real time — before they execute.
 
@@ -50,7 +43,7 @@ No polling. No page refresh. No manual checking. Just instant, automated on-chai
 
 ---
 
-## ⚡ Key Features
+##  Key Features
 
 1. **Wallet Connection** — Connect any Web3 wallet (Wagmi + Viem) and view address + balance
 2. **Reactive Smart Contract** — Deployed on Somnia Testnet; emits events for large transfers, token movements, and unknown contract interactions
@@ -58,15 +51,15 @@ No polling. No page refresh. No manual checking. Just instant, automated on-chai
 4. **Live Security Dashboard** — Wallet status, risk score, live transaction monitor, alert panel, event log
 5. **Security Simulation** — "Simulate Risk Transaction" button shows full reactive alert flow in real time
 6. **Alerts System** — Instant UI alerts for:
-   - ⚠️ Large transaction detected
-   - ⚠️ Unknown contract interaction
-   - ⚠️ Rapid token transfers
+   -  Large transaction detected
+   -  Unknown contract interaction
+   -  Rapid token transfers
 7. **Somnia Testnet Info** — Displays contract address, latest event, and transaction hash live on the dashboard
 8. **Product Potential Section** — Explains how ReactiveShield becomes real Web3 security infrastructure
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -84,7 +77,7 @@ No polling. No page refresh. No manual checking. Just instant, automated on-chai
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
@@ -121,13 +114,13 @@ No polling. No page refresh. No manual checking. Just instant, automated on-chai
                               ┌────────────────────┴────────────────────┐
                               │                                         │
                               ▼                                         ▼
-                       ✅ Transaction Proceeds                 ⚠️ Transaction BLOCKED
+                        Transaction Proceeds                  Transaction BLOCKED
                        (Risk Score < 70)                      (Risk Score ≥ 70)
 ```
 
 ---
 
-## 🔄 How Somnia Reactivity Works
+##  How Somnia Reactivity Works
 
 1. **Subscribe to Events** — ReactiveShield uses the Somnia Reactivity SDK to subscribe to live on-chain events (LargeTransfer, UnknownContractInteraction, RapidTokenTransfer) without any polling.
 
@@ -139,7 +132,7 @@ No polling. No page refresh. No manual checking. Just instant, automated on-chai
 
 ---
 
-## ⛓️ Somnia Testnet Deployment
+##  Somnia Testnet Deployment
 
 | Field | Value |
 |---|---|
@@ -154,7 +147,7 @@ No polling. No page refresh. No manual checking. Just instant, automated on-chai
 
 ---
 
-## 🎬 Demo
+##  Demo
 
 The live demo dashboard lets you:
 
@@ -162,9 +155,9 @@ The live demo dashboard lets you:
 2. See the Risk Score indicator and Reactivity SDK subscription status
 3. Click **"Simulate Risk Transaction"** to trigger the full reactive flow
 4. Watch real-time alerts appear:
-   - ⚠️ Large transaction detected
-   - ⚠️ Unknown contract interaction
-   - ⚠️ Rapid token transfers
+   -  Large transaction detected
+   -  Unknown contract interaction
+   -  Rapid token transfers
 5. The risk score climbs to HIGH (87/100) and the transaction is blocked instantly
 6. The event log records every blocked event with hash and timestamp
 
@@ -172,7 +165,7 @@ The live demo dashboard lets you:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -210,7 +203,7 @@ npm run build
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 reactive-shield/
@@ -243,7 +236,7 @@ reactive-shield/
 
 ---
 
-## 🚀 Product Potential
+##  Product Potential
 
 ReactiveShield is more than a hackathon demo — it's a blueprint for real Web3 security infrastructure:
 
@@ -256,7 +249,7 @@ The combination of Somnia's reactivity primitives + smart contract enforcement c
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Here's how to get involved:
 
@@ -270,17 +263,17 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for full guidelines.
 
 ---
 
-## 👤 Team
+##  Team
 
 **Suneet Bhardwaj** — *Solo Developer & Hackathon Participant*
 
-- 🐙 GitHub: [@suneetbhardwaj-art](https://github.com/suneetbhardwaj-art)
-- 💼 LinkedIn: [suneet-bhardwaj-4a0060365](https://www.linkedin.com/in/suneet-bhardwaj-4a0060365/)
-- 🐦 X / Twitter: [@suneet_8076](https://x.com/suneet_8076)
+-  GitHub: [@suneetbhardwaj-art](https://github.com/suneetbhardwaj-art)
+-  LinkedIn: [suneet-bhardwaj-4a0060365](https://www.linkedin.com/in/suneet-bhardwaj-4a0060365/)
+-  X / Twitter: [@suneet_8076](https://x.com/suneet_8076)
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
 
